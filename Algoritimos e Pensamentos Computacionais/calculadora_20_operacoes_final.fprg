@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calculadora 20 operadores"/>
+        <attribute name="authors" value="VICTORDANIELJESUSDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-21 11:12:03 "/>
+        <attribute name="created" value="VklDVE9SREFOSUVMSkVTVVNERVM7REYwMS1MQUIwOC0xMjsyMDI2LTA4LTIxOyIwOTo1OTo1NiAiOzM0NTk="/>
+        <attribute name="edited" value="VklDVE9SREFOSUVMSkVTVVNERVM7REYwMS1MQUIwOC0xMjsyMDI2LTA4LTIxOyIxMToxMjowMyAiOzE7MzU0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="operacoes" type="String" array="False" size=""/>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <declare name="resultado" type="String" array="False" size=""/>
+            <output expression="&quot;Escolha uma das 20 operacoes: +, -, *, /, %, ^, &gt;, &lt;, &gt;=, &lt;=, ==, !=, media, max, min, dist, somaquad, mediaquad, soma, diferenca&quot;" newline="True"/>
+            <input variable="operacoes"/>
+            <output expression="&quot;Digite a:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite b:&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="operacoes == &quot;+&quot;">
+                <then>
+                    <assign variable="c" expression="a+b"/>
+                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                </then>
+                <else>
+                    <if expression="operacoes == &quot;-&quot;">
+                        <then>
+                            <assign variable="c" expression="a-b"/>
+                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="operacoes == &quot;*&quot;">
+                                <then>
+                                    <assign variable="c" expression="a*b"/>
+                                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="operacoes == &quot;/&quot;">
+                                        <then>
+                                            <if expression="b != 0">
+                                                <then>
+                                                    <assign variable="c" expression="a/b"/>
+                                                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Erro: divisao por zero.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <if expression="operacoes == &quot;%&quot;">
+                                                <then>
+                                                    <if expression="b != 0">
+                                                        <then>
+                                                            <assign variable="c" expression="a % b"/>
+                                                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;Erro: modulo por zero.&quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <if expression="operacoes == &quot;^&quot;">
+                                                        <then>
+                                                            <assign variable="c" expression="a^b"/>
+                                                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="operacoes == &quot;&gt;&quot;">
+                                                                <then>
+                                                                    <if expression="a &gt; b">
+                                                                        <then><output expression="&quot;Resultado: a e maior&quot;" newline="True"/></then>
+                                                                        <else><output expression="&quot;Resultado: b e maior ou igual&quot;" newline="True"/></else>
+                                                                    </if>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="operacoes == &quot;&lt;&quot;">
+                                                                        <then>
+                                                                            <if expression="a &lt; b">
+                                                                                <then><output expression="&quot;Resultado: a e menor&quot;" newline="True"/></then>
+                                                                                <else><output expression="&quot;Resultado: b e menor ou igual&quot;" newline="True"/></else>
+                                                                            </if>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="operacoes == &quot;&gt;=&quot;">
+                                                                                <then>
+                                                                                    <if expression="a &gt;= b">
+                                                                                        <then><output expression="&quot;Resultado: a e maior ou igual a b&quot;" newline="True"/></then>
+                                                                                        <else><output expression="&quot;Resultado: a e menor que b&quot;" newline="True"/></else>
+                                                                                    </if>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="operacoes == &quot;&lt;=&quot;">
+                                                                                        <then>
+                                                                                            <if expression="a &lt;= b">
+                                                                                                <then><output expression="&quot;Resultado: a e menor ou igual a b&quot;" newline="True"/></then>
+                                                                                                <else><output expression="&quot;Resultado: a e maior que b&quot;" newline="True"/></else>
+                                                                                            </if>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <if expression="operacoes == &quot;==&quot;">
+                                                                                                <then>
+                                                                                                    <if expression="a == b">
+                                                                                                        <then><output expression="&quot;Resultado: a e igual a b&quot;" newline="True"/></then>
+                                                                                                        <else><output expression="&quot;Resultado: a e diferente de b&quot;" newline="True"/></else>
+                                                                                                    </if>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <if expression="operacoes == &quot;!=&quot;">
+                                                                                                        <then>
+                                                                                                            <if expression="a != b">
+                                                                                                                <then><output expression="&quot;Resultado: a e diferente de b&quot;" newline="True"/></then>
+                                                                                                                <else><output expression="&quot;Resultado: a e igual a b&quot;" newline="True"/></else>
+                                                                                                            </if>
+                                                                                                        </then>
+                                                                                                        <else>
+                                                                                                            <if expression="operacoes == &quot;media&quot;">
+                                                                                                                <then>
+                                                                                                                    <assign variable="c" expression="(a+b)/2"/>
+                                                                                                                    <output expression="&quot;Media: &quot; &amp; c" newline="True"/>
+                                                                                                                </then>
+                                                                                                                <else>
+                                                                                                                    <if expression="operacoes == &quot;max&quot;">
+                                                                                                                        <then>
+                                                                                                                            <if expression="a &gt; b">
+                                                                                                                                <then><assign variable="c" expression="a"/></then>
+                                                                                                                                <else><assign variable="c" expression="b"/></else>
+                                                                                                                            </if>
+                                                                                                                            <output expression="&quot;Maior valor: &quot; &amp; c" newline="True"/>
+                                                                                                                        </then>
+                                                                                                                        <else>
+                                                                                                                            <if expression="operacoes == &quot;min&quot;">
+                                                                                                                                <then>
+                                                                                                                                    <if expression="a &lt; b">
+                                                                                                                                        <then><assign variable="c" expression="a"/></then>
+                                                                                                                                        <else><assign variable="c" expression="b"/></else>
+                                                                                                                                    </if>
+                                                                                                                                    <output expression="&quot;Menor valor: &quot; &amp; c" newline="True"/>
+                                                                                                                                </then>
+                                                                                                                                <else>
+                                                                                                                                    <if expression="operacoes == &quot;dist&quot;">
+                                                                                                                                        <then>
+                                                                                                                                            <if expression="a &gt;= b">
+                                                                                                                                                <then><assign variable="c" expression="a-b"/></then>
+                                                                                                                                                <else><assign variable="c" expression="b-a"/></else>
+                                                                                                                                            </if>
+                                                                                                                                            <output expression="&quot;Distancia absoluta: &quot; &amp; c" newline="True"/>
+                                                                                                                                        </then>
+                                                                                                                                        <else>
+                                                                                                                                            <if expression="operacoes == &quot;somaquad&quot;">
+                                                                                                                                                <then>
+                                                                                                                                                    <assign variable="c" expression="a*a+b*b"/>
+                                                                                                                                                    <output expression="&quot;Soma dos quadrados: &quot; &amp; c" newline="True"/>
+                                                                                                                                                </then>
+                                                                                                                                                <else>
+                                                                                                                                                    <if expression="operacoes == &quot;mediaquad&quot;">
+                                                                                                                                                        <then>
+                                                                                                                                                            <assign variable="c" expression="(a*a+b*b)/2"/>
+                                                                                                                                                            <output expression="&quot;Media dos quadrados: &quot; &amp; c" newline="True"/>
+                                                                                                                                                        </then>
+                                                                                                                                                        <else>
+                                                                                                                                                            <if expression="operacoes == &quot;soma&quot;">
+                                                                                                                                                                <then>
+                                                                                                                                                                    <assign variable="c" expression="a+b"/>
+                                                                                                                                                                    <output expression="&quot;Soma: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                </then>
+                                                                                                                                                                <else>
+                                                                                                                                                                    <if expression="operacoes == &quot;diferenca&quot;">
+                                                                                                                                                                        <then>
+                                                                                                                                                                            <assign variable="c" expression="a-b"/>
+                                                                                                                                                                            <output expression="&quot;Diferenca: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                        </then>
+                                                                                                                                                                        <else>
+                                                                                                                                                                            <output expression="&quot;Operacao invalida.&quot;" newline="True"/>
+                                                                                                                                                                        </else>
+                                                                                                                                                                    </if>
+                                                                                                                                                                </else>
+                                                                                                                                                            </if>
+                                                                                                                                                        </else>
+                                                                                                                                                    </if>
+                                                                                                                                                </else>
+                                                                                                                                            </if>
+                                                                                                                                        </else>
+                                                                                                                                    </if>
+                                                                                                                                </else>
+                                                                                                                            </if>
+                                                                                                                        </else>
+                                                                                                                    </if>
+                                                                                                                </else>
+                                                                                                            </if>
+                                                                                                        </else>
+                                                                                                    </if>
+                                                                                                </else>
+                                                                                            </if>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
