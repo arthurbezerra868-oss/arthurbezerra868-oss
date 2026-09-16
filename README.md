@@ -1,108 +1,64 @@
-## Hi there 👋
+# 👋 Olá, eu sou Arthur Lima Bezerra!
 
-# 👋 Olá! Eu sou Arthur Lima Bezerra
+🎓 Estudante de **Engenharia de Software** na **UDF — Centro Universitário do Distrito Federal**, atualmente no **2º semestre**.
 
- 🎓 Estudante de Engenharia de Software | 💻 Desenvolvedor em formação
+💻 Tenho conhecimentos em **HTML e CSS** e venho desenvolvendo minhas habilidades em programação e desenvolvimento web. Também tenho interesse e conhecimento no uso de **Inteligência Artificial**, área na qual pretendo continuar me aprofundando.
 
-Sou estudante de Engenharia de Software no UDF — Centro Universitário do Distrito Federal, em Brasília.
+## 🚀 Sobre mim
 
-Iniciei minha graduação em 2026 e atualmente estou no 2º semestre.
+Sou estudante de Engenharia de Software e estou sempre buscando aprender novas tecnologias e desenvolver meus conhecimentos na área de programação.
 
-Estou construindo minha base em programação e desenvolvimento de software, colocando em prática o que aprendo através de projetos e estudos.
+Atualmente, estou estudando:
 
----
+* 🌐 **HTML**
+* 🎨 **CSS**
+* 💻 **C**
+* 🐍 **Python**
+* 🗄️ **SQL** — iniciando os estudos
+* 🤖 **Inteligência Artificial**
 
-🧑‍💻 Sobre mim
+Tenho interesse especialmente em **desenvolvimento de sites** e em áreas relacionadas à **Inteligência Artificial**.
 
-- 🎓 Engenharia de Software — UDF | Brasília
-- 📚 2º semestre
-- 🐍 Conhecimentos em Python
-- 💻 Estudando C
-- 🌐 Conhecimentos em HTML
-- 🎨 Conhecimentos em Figma
-- 🤖 Conhecimentos em Engenharia de Prompts
+## 🎯 Objetivos
 
----
+Atualmente, estou em busca de uma oportunidade de **estágio na área de tecnologia**, onde eu possa colocar meus conhecimentos em prática, aprender com profissionais da área e continuar evoluindo.
 
- 🛠️ Conhecimentos
+Meu objetivo é ampliar cada vez mais meus conhecimentos em **desenvolvimento web, programação e Inteligência Artificial**, construindo projetos e adquirindo experiência profissional.
 
- 💻 Programação
+## 🛠️ Tecnologias e conhecimentos
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+<div>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/IA-🤖-black?style=for-the-badge" />
+</div>
 
-Python — conhecimentos adquiridos durante a graduação
-C — em aprendizado
+## 📚 Atualmente aprendendo
 
----
+* Programação em **C**
+* Programação em **Python**
+* Fundamentos de **SQL**
+* Desenvolvimento de sites
+* Conceitos e ferramentas de **Inteligência Artificial**
 
- 🌐 Desenvolvimento Web
+## 💼 Em busca de estágio
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+Estou aberto a oportunidades de **estágio em tecnologia**, especialmente em áreas relacionadas a:
 
-HTML — conhecimentos básicos
-CSS — próximo aprendizado
+* Desenvolvimento Web
+* Programação
+* Inteligência Artificial
+* Desenvolvimento de Software
 
----
+Estou sempre disposto a aprender, colaborar e desenvolver novas habilidades.
 
- 🗄️ Banco de Dados
+## 📫 Vamos nos conectar?
 
-SQL — próximo aprendizado
+Sinta-se à vontade para explorar meus repositórios e acompanhar minha evolução como estudante e futuro profissional de tecnologia.
 
-Tenho interesse em aprender bancos de dados e entender melhor como aplicações armazenam, consultam e organizam informações.
-
----
-
- 🎨 Design
-
-![Figma](https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white)
-
-Figma — criação de interfaces e protótipos
-
----
-
- 🤖 Inteligência Artificial
-
-![AI](https://img.shields.io/badge/AI-412991?style=for-the-badge)
-
-Engenharia de Prompts — conhecimentos adquiridos durante minha formação.
-
----
-
- 📂 Projetos
-
-Este perfil reúne meus projetos acadêmicos, exercícios e projetos pessoais desenvolvidos durante minha formação.
-
-Através deles, busco colocar meus conhecimentos em prática e acompanhar minha evolução na área de desenvolvimento de software.
-
----
-
-🎯 Objetivos
-
-- 📚 Fortalecer meus fundamentos de programação
-- 💻 Desenvolver projetos próprios
-- 🧠 Aprender boas práticas de Engenharia de Software
-- 🌐 Evoluir em desenvolvimento web
-- 🗄️ Aprender SQL e bancos de dados
-- 🚀 Construir um portfólio sólido durante a graduação
-
----
-
- 🎓 Formação
-
-Engenharia de Software — UDF — Centro Universitário do Distrito Federal
-
-📍 Brasília, DF
-📅 Início: 2026
-📚 2º semestre
-
----
-
- 📫 Contato
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arthurbezerra868-oss)
+**Obrigado pela visita! 🚀**
 
 
----
-
- 🚀 Em constante evolução.
